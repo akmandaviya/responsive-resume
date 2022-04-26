@@ -52,9 +52,9 @@
   padding: 1rem;
 }
 .description{
-  font-size: 0.75rem;
+  font-size: 1rem;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 
@@ -100,9 +100,9 @@ a{
   color: white;
 }
 .progress-bar{
-  border: 2px solid rgb(6, 0, 0);
-  height: 4px;
-  margin-bottom: 15px;
+  border: 1px solid white;
+    height: 4px;
+    margin-bottom: 15px;
 
 }
 
@@ -145,7 +145,7 @@ th{
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 673px) {
   .main-content {
       grid-template-columns: repeat(1, 1fr);
   }
